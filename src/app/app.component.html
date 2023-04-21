@@ -1,0 +1,8 @@
+<div style="background-color: rgb(126, 126, 255);">
+    <app-header (changeScreen)="changeShownScreen($event)"></app-header>
+    <app-home *ngIf="curScreen == 0"></app-home>
+    <app-finance *ngIf="curScreen == 1"></app-finance>
+    <app-news-plans *ngIf="curScreen == 2"></app-news-plans>
+    <app-volunteers *ngIf="curScreen == 5"></app-volunteers>
+    <app-footer></app-footer>
+</div>

@@ -1,0 +1,63 @@
+label{
+    font-weight: bold; 
+    margin-left: 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Allgemein */
+body{   /* Applied to everything */
+    font-family: "Yanone Kaffeesatz";
+    font-size: 1.6rem;
+}
+
+/* All below are user defined */
+.circle6{       /* 6 out of 12*/
+    color: #00d9ff
+}
+.circle7{       /* 7 out of 12*/
+    color: #0080ff
+}
+.circle8{       /* 8 out of 12*/
+    color: #0000ff
+}
+.circle10{       /* 9 out of 12*/
+    color:#ff00ff
+}
+.black{
+    color:black
+}
+.darkMagenta{
+    color: #a10099
+}
+.lightGrey{
+    color: #bdbdbd
+}
+
+
+/*Navigation*/
+.navbar, 
+.carousel{
+    border-bottom: 3px solid #888;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+.nav-link:active,
+.nav-link:hover{
+    color: #0080ff !important;
+}
+
+.icon-link:active,
+.icon-link:hover{
+    color: #0000ff;
+}
+
+/*Slider*/
+.slider-image{
+    width: 100vw;       /*view width*/
+    height: 70vh;       /*view height*/
+    background-position: center;
+    background-size: cover;
+}

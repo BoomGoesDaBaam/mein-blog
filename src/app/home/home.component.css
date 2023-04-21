@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-size: x-large;
+}
+.label-bold{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.brightBlue{
+    background-color: rgb(154, 154, 255);
+}
